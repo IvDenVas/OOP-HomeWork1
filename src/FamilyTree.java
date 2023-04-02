@@ -22,7 +22,7 @@ public class FamilyTree {
         return " ";
     }
 
-    public void searchForSurname(String surname, String name) {
+    public void searchForSurnameandName(String surname, String name) {
         List<Human> temp = new ArrayList<>();
         Object res = null;
         for (Human item : tree) {

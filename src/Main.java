@@ -25,7 +25,7 @@ public class Main {
         tree.add(human8);
 
         System.out.println(tree);
-        tree.searchForSurname("Иванова", "Аня");// вывод данного человека и его детей
+        tree.searchForSurnameandName("Иванова", "Аня");// вывод данного человека и его детей
 
 
     }
